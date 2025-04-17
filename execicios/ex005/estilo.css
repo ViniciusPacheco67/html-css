@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(to right,);
+    font:normal 20pt Arial;
+    text-align: center;
+    font-style: italic;
+    font: bold;
+
+}
+
+div {
+    background: linear-gradient(to right, #a9c9df, #a8e7f0, #7dbabe );
+    font-style: italic;
+    font: bolder;
+    justify-items: center;
+    box-shadow: 5px 5px 5px rgb(7, 7, 7);
+    border-radius: 50px;
+    width: 600px;
+    height: 150%;
+    justify-self: center;
+    color: rgb(0, 0, 0);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)0.5ms;
+}
+
+input {
+    background:rgb(236, 236, 236);
+    font:normal 15pt Arial;
+    justify-items: center;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 300px;
+
+}
+
+::placeholder {
+    font:normal 13pt Arial;
+}
+
+div {
+    flex-direction: column;
+}
+    button {
+        color: rgb(214, 231, 236);
+    }
+

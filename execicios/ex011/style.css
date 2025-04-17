@@ -1,0 +1,12 @@
+body {
+    background-image: linear-gradient(to right, #bcd6ca,#aebabf, #cfc0b4, #e9b990e3);
+}
+
+picture {
+    width: auto;
+}
+
+image {
+    width: 100%;
+    height: 500px;
+}

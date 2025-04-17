@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferente ou simplesmente aumentar o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/velho-zangetsu-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/velho-zangetsu-m.png" type="image/png">
+        <img src="imagens/velho-zangetsu-g.png" width="" alt="Imagem flexivel">
+    </picture>   
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir Áudio em HTML5.</p>
+    <audio src="midia/Bleach - Ichigo Crying Emotional Sad ᴴᴰ [ Rain   Never Meant to Belong ](MP3_160K).mp3" controls autoplay></audio>
+    <p>O áudio acima é um trecho do anime Bleach.</p>
+</html>

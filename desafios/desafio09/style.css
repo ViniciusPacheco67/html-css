@@ -1,0 +1,18 @@
+* {
+    height: auto;
+ }
+body {
+
+    background-image:linear-gradient(to right, #2d8d3dcc, rgb(99, 172, 99), #48acbe, #245b75 );
+    font:normal 20px Arial;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 50px;
+
+}
